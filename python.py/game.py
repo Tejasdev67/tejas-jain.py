@@ -33,7 +33,14 @@ def guess_the_number():
         attempts += 1
         
         # Check the logic conditions
-        if guess < secret_number:
+        if guess== 54:
+            print("⇄the number is opposite of 54")
+        elif guess== 46:
+            print("🤏too close to the number")
+        elif guess == 44:
+            print("🤏too close to the number")
+        
+        elif guess ==(47-100) and guess <secret_number:
             print("📉 Too low! Try a higher number.")
         elif guess > secret_number:
             print("📈 Too high! Try a lower number.")
